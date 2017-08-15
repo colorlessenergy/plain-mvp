@@ -5,7 +5,7 @@ title = "MVPS"
 [[menu.main]]
   name = "Food"
   weight = -70
-  url = "/food"
+  url = "categories/food"
 
 [[menu.main]]
   name = "About"
@@ -15,7 +15,7 @@ title = "MVPS"
 [[menu.main]]
   name = "Drinks"
   weight = -70
-  url = "/drinks"
+  url = "categories/drinks"
 
 [params]
   description = "MVPS, gril and patio"
