@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>food on MVPS</title>
+    <title>Foods on MVPS</title>
     <link>/food/</link>
-    <description>Recent content in food on MVPS</description>
+    <description>Recent content in Foods on MVPS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Aug 2017 07:41:50 -0700</lastBuildDate>
@@ -45,6 +45,17 @@
       
       <guid>/food/combo-2-combination/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>food</title>
+      <link>/food/</link>
+      <pubDate>Thu, 10 Aug 2017 07:41:50 -0700</pubDate>
+      
+      <guid>/food/</guid>
+      <description>{{ .Section }} {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}  {{ if eq &#34;categories&#34; $taxonomyname }} {{ range $key, $value := $taxonomy }} {{ if ne $key &#34;drinks&#34; }} {{ $key }}.  {{ range $value.Pages.GroupByParam &#34;type&#34; }} {{ .Key }}  {{ range .Pages }}  {{ .Title }} {{ .Params.description }}
+{{ .Params.price }}
+ {{ end }}  {{ end }} {{ end }} {{ end }} {{ end }}  {{ end }}  </description>
     </item>
     
     <item>
