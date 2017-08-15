@@ -48,17 +48,6 @@
     </item>
     
     <item>
-      <title>food</title>
-      <link>/food/</link>
-      <pubDate>Thu, 10 Aug 2017 07:41:50 -0700</pubDate>
-      
-      <guid>/food/</guid>
-      <description>{{ .Section }} {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}  {{ if eq &#34;categories&#34; $taxonomyname }} {{ range $key, $value := $taxonomy }} {{ if ne $key &#34;drinks&#34; }} {{ $key }}.  {{ range $value.Pages.GroupByParam &#34;type&#34; }} {{ .Key }}  {{ range .Pages }}  {{ .Title }} {{ .Params.description }}
-{{ .Params.price }}
- {{ end }}  {{ end }} {{ end }} {{ end }} {{ end }}  {{ end }}  </description>
-    </item>
-    
-    <item>
       <title>hat trick</title>
       <link>/food/hat-trick-burger/</link>
       <pubDate>Thu, 10 Aug 2017 07:41:50 -0700</pubDate>
