@@ -6,5 +6,5 @@ type: beverages
 title: soda
 description: Coca cola, diet coca cola, sprite, dr. pepper, root beer, arnold palmer, lemonade
 price: 1.85
-draft: false;
+draft: false
 ---
