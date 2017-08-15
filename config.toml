@@ -1,0 +1,22 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "MVPS"
+
+[[menu.main]]
+  name = "Food"
+  weight = -70
+  url = "/food"
+
+[[menu.main]]
+  name = "About"
+  weight = -70
+  url = "/about"
+
+[[menu.main]]
+  name = "Drinks"
+  weight = -70
+  url = "/drinks"
+
+[params]
+  description = "MVPS, gril and patio"
+  author = "github.com/colorlessenergy"
